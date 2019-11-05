@@ -29,12 +29,7 @@ namespace Spooky
         {
             InitializeComponent();
            // SoundPlayer 
-            //g = this.CreateGraphics();
-            //Pen drawPen = new Pen(Color.Red, 10);
-            //g.DrawLine(drawPen, 0, 0, 100, 100);
-
-            //g.Clear(Color.White);
-        //    g.Clear(Color.Black);
+            
             //scene 0 setup
             mainStory.Text = "You wake up on the floor of an unfamiliar living room. No lights are on and it seems as though no one has lived here in a long time. There are three closed doors. Which one do you choose?";
             option1.Text = "Door one. (A)";
