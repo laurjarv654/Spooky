@@ -153,7 +153,6 @@ namespace Spooky
                     pictureBox1.Image = Properties.Resources.living_room;
                     ending.Stop();
                     livingRoom.Play();
-                    voiceLabel.Text = "";
                     mainStory.Text = "You wake up on the floor of an unfamiliar living room. No lights are on and it seems as though no one has lived here in a long time. There are three closed doors. Which one do you choose?";
                     option1.Text = "Door one.(A)";
                     option2.Text = "Door two.(D)";
@@ -170,10 +169,9 @@ namespace Spooky
                     break;
 
                 case 2:
-                    //pictureBox1. = colour.;
+                    pictureBox1.Image = Properties.Resources.black;
                     livingRoom.Stop();
-                    voiceLabel.Text = "Haha you thought you could just leave?";
-                    mainStory.Text = "";
+                    mainStory.Text = "Haha you thought you could just leave?";
                     option1.Text = "Yes..?(A)";
                     option2.Text = "";
                     option3.Text = "";
@@ -265,8 +263,8 @@ namespace Spooky
 
                 case 10.1:
                     livingRoom.Stop();
-                    voiceLabel.Text = "Nice try, but that's not going to work here.";
-                    mainStory.Text = "";
+                    pictureBox1.Image = Properties.Resources.black;
+                    mainStory.Text = "Nice try, but that's not going to work here.";
                     option1.Text = "Coninue.(A)";
                     option2.Text = "";
                     option3.Text = "";
