@@ -28,26 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.mainStory = new System.Windows.Forms.Label();
             this.option2 = new System.Windows.Forms.Label();
             this.option1 = new System.Windows.Forms.Label();
             this.option3 = new System.Windows.Forms.Label();
             this.voiceLabel = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(338, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(438, 220);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // mainStory
             // 
             this.mainStory.BackColor = System.Drawing.Color.Transparent;
+            this.mainStory.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mainStory.ForeColor = System.Drawing.Color.Red;
             this.mainStory.Location = new System.Drawing.Point(10, 249);
             this.mainStory.Name = "mainStory";
@@ -96,6 +89,17 @@
             this.voiceLabel.Name = "voiceLabel";
             this.voiceLabel.Size = new System.Drawing.Size(306, 220);
             this.voiceLabel.TabIndex = 6;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::Spooky.Properties.Resources.living_room2;
+            this.pictureBox1.Image = global::Spooky.Properties.Resources.living_room;
+            this.pictureBox1.Location = new System.Drawing.Point(366, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(438, 220);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 

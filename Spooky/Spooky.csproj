@@ -59,17 +59,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -78,6 +79,78 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bedroomSound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\childrenSound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kitchenSound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\livingroomSound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bathrrom.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bedroom.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bedroom2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bedroom3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cool photo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cool photo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foyer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hallway.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hallway2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kitchen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\living room.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\living room2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\endingSound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foyerSound2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\livingroomSound2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kitchenSound2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\child.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\realbedroom.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
