@@ -207,6 +207,7 @@ namespace Spooky
                 case 6:
                     livingRoom.Stop();
                     ending.Play();
+                    pictureBox1.Image = Properties.Resources.child;
                     mainStory.Text = "You hear odd noises coming from door three. You open to find the monster hiding inside!  You feel yourself pass out an it's inky black substance surrounds you. You hear a faint voice.";
                     option1.Text = "Continue.(A)";
                     option2.Text = "";
@@ -272,6 +273,7 @@ namespace Spooky
 
                 case 10.2:
                     ending.Play();
+                    pictureBox1.Image = Properties.Resources.black;
                     mainStory.Text = "You open the door. All you can see is inky blackness. It seems sentient. It traps you.";
                     option1.Text = "Coninue.(A)";
                     option2.Text = "";
